@@ -1,0 +1,175 @@
+nav ul {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: black;
+    height:65px;
+    padding: 10px;
+ }
+
+#home {
+width: 120px;
+height: 40px;
+border-radius: 10px;
+text-transform: uppercase;
+background-image:linear-gradient(to right, deeppink, darkviolet);
+color:white;
+border:none;
+font-family: 'Acme', sans-serif;
+
+}
+
+#about {
+width: 120px;
+height: 40px;
+border-radius: 10px;
+text-transform: uppercase;
+background-image:linear-gradient(to right, deeppink, darkviolet);
+border: none;
+color: white;
+font-family: 'Acme', sans-serif;
+font-size: 15px;
+}
+
+#members {
+width: 120px;
+height: 40px;
+border-radius: 10px;
+text-transform: uppercase;
+background-image:linear-gradient(to right, deeppink, darkviolet);
+border: none;
+color: white;
+font-family: 'Acme', sans-serif;
+font-size: 15px;
+
+}
+
+#discography {
+    width: 120px;
+    height: 40px;
+    border-radius: 10px;
+    text-transform: uppercase;
+    background-image:linear-gradient(to right, deeppink, darkviolet);
+    border: none;
+    color: white;
+    font-family: 'Acme', sans-serif;
+    font-size: 15px;
+    
+
+
+}
+
+#extras {
+    width: 120px;
+    height: 40px;
+    border-radius: 10px;
+    text-transform: uppercase;
+    background-image:linear-gradient(to right, deeppink, darkviolet);
+    border: none;
+   color: white;
+   font-family: 'Acme', sans-serif;
+   font-size: 15px;
+}
+
+* {
+    margin: 0; /*removes the browswers default margin*/
+    padding: 0; /*removes the browswers default padding*/
+    box-sizing: border-box;
+    }
+
+    body {
+         background-image:url('https://wallpaperboat.com/wp-content/uploads/2020/04/pink-space-background-desktop.jpg');
+        background-size: cover;
+    }
+
+
+
+  .group-card {
+      width: 400px;
+      height: 520px;
+      background-color: black;
+      display: block;
+      margin: 0 auto;
+      margin-top: 50px;
+      border-radius: 20px;
+      
+  }
+
+  #name {
+    background-image: linear-gradient(to right,deeppink,darkviolet);
+      text-transform: uppercase;
+      color:white;
+      border-radius: 10px;
+      width: 100px;
+      height: 30px;
+      border: none;
+      font-family: 'Acme', sans-serif;
+
+  }
+
+  #activity {
+      background-image: linear-gradient(to right,deeppink,darkviolet);
+      text-transform: uppercase;
+      color:white;
+      border-radius: 10px;
+      width: 100px;
+      height: 30px;
+      font-size: 15px;
+      border: none;
+      font-family: 'Acme', sans-serif;
+  }
+
+ #company {
+    background-image: linear-gradient(to right,deeppink,darkviolet);
+    text-transform: uppercase;
+    color: white;
+    border-radius: 10px;
+    width: 100px;
+    height: 30px;
+    border:none;
+    font-family: 'Acme', sans-serif;
+  }
+  
+  #group-image {
+      width: 310px;
+      height:250px;
+      display: block;
+      margin: 0 auto;
+      padding: 15px;
+      border-radius: 50px;
+      
+  }
+  .buttons {
+      display:flex;
+      justify-content: space-evenly;
+     
+  }
+
+  #group-description {
+      width: 320px;
+      height: 200px;
+      background-image:linear-gradient(to right, deeppink, darkviolet);
+      border-radius: 10px;
+      display: block;
+      margin: 0 auto;
+      color:white;
+      padding: 15px;
+      margin-top: 20px;
+     overflow: auto;
+      font-size: 13px;
+      text-align: justify;
+      font-family: 'Acme', sans-serif
+  }
+
+  ::-webkit-scrollbar {
+    width: 0px;
+    background: transparent; /* make scrollbar transparent */
+}
+
+.buttons :hover {
+    transform: skewX(7deg);
+
+}
+
+nav .buttons :hover {
+    transform: skewX(7deg);
+}
